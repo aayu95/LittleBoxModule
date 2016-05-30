@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.aayush.littleboxmodule.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View all users"
+            android:textSize="50dp"
+            android:layout_centerInParent="true"
+            />
+        <TextView
+            android:id="@+id/sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New user? Sign up"
+            android:layout_marginTop="20sp"
+            android:textSize="20dp"
+            android:onClick="SignUp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="in.aayush.littleboxmodule.ShowUserDetails">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User id :"
+        android:textSize="20dp"
+        android:id="@+id/tvid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvid1"
+        android:text="0"
+        android:layout_toRightOf="@+id/tvid"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textSize="20dp"
+        android:id="@+id/tvname"
+        android:layout_below="@+id/tvid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvname1"
+        android:text="yo"
+        android:layout_toRightOf="@+id/tvname"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvid1"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Working Hours -"
+        android:textSize="25dp"
+        android:id="@+id/tvtext"
+        android:layout_below="@+id/tvname"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From :"
+        android:textSize="20dp"
+        android:id="@+id/tvfrom"
+        android:layout_below="@+id/tvtext"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfrom1"
+        android:text="yo"
+        android:layout_toRightOf="@+id/tvfrom"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvtext"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To :"
+        android:textSize="20dp"
+        android:id="@+id/tvto"
+        android:layout_below="@+id/tvfrom"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvto1"
+        android:text="yo"
+        android:layout_toRightOf="@+id/tvto"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvfrom1"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
